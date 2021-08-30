@@ -166,7 +166,7 @@
 												$cho = curl_init();
 						
 												curl_setopt_array($cho, array(
-												CURLOPT_URL => "http://localhost:80/api/getdata",
+												CURLOPT_URL => "http://localhost:80/api/getdata.php",
 												CURLOPT_RETURNTRANSFER => true,
 												CURLOPT_ENCODING => "",
 												CURLOPT_MAXREDIRS => 10,
